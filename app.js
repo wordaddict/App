@@ -37,7 +37,7 @@ if (note) {
   console.log('Note created')
   notes.logNote(note);
 } else {
-  console.log('Note title taken')
+  console.log('Note title already taken')
 }
 
 } else if (command === 'list') {
@@ -50,7 +50,7 @@ if (note) {
       console.log('Note read');
       notes.logNote(note);
     } else {
-      console.log('Note not found');
+      console.log('Note was not found');
     }
 
   } else if (command === 'remove') {
